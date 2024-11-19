@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4bb7f5, #d8f0f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .go-back-arrow {
+    position: absolute; /* Places it at the top left */
+    top: 20px; /* Distance from the top of the page */
+    left: 20px; /* Distance from the left of the page */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Makes the text and arrow larger */
+    color: #333; /* Arrow and text color */
+    display: flex; /* Align arrow and text in a row */
+    align-items: center; /* Aligns vertically */
+    gap: 5px; /* Adds space between arrow and text */
+}
+
+.go-back-arrow:hover {
+    color: #f73a0b; /* Change color on hover */
+}
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0056b3;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Button and Links */
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #06ec30;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background: red;
+  }
+  
+  .actions p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .actions a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .actions a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-box {
+      padding: 15px;
+    }
+  
+    .login-box h2 {
+      font-size: 20px;
+    }
+  
+    .input-group input {
+      font-size: 13px;
+      padding: 8px;
+    }
+  
+    .actions button {
+      font-size: 14px;
+    }
+  }
+  
